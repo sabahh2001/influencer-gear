@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin-top: 95px;
+    margin-right: 128px;
+    margin-left: 128px;
+}
+
+header {
+    display: flex;
+
+}
+
+header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 10px auto 0 30px;
+    color: #383a3b;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #383a3b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 60;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: rgb(33, 132, 245);
+}
+
+.fa-magnifying-glass {
+    color: #383a3b;
+    margin: 20px 10px 0 10px;
+    font-size: larger;
+
+}
+
+.fa-magnifying-glass:hover {
+    color: rgb(33, 132, 245);
+
+}
+
+.fa-cart-shopping {
+    margin: 20px 30px 0 0;
+    font-size: larger;
+}
+
+.fa-cart-shopping:hover {
+    color: rgb(33, 132, 245);
+
+}
+
+.sec1 {
+    display: flex;
+}
+
+.half-width {
+    width: 582px;
+    font-family: 'Poppins', sans-serif;
+    color: #383a3b;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 130px;
+}
+
+.half-width>h1 {
+    font-size: 50px;
+}
+
+.half-width>p {
+    font-weight: 400;
+}
+
+.half-widths img {
+    width: 440px;
+    margin-top: 50px;
+    border: 5px solid rgb(226, 226, 231);
+    border-radius: 50%;
+}
+
+.half-width a {
+    text-decoration: none;
+    background-color: rgb(33, 132, 245);
+    color: white;
+    padding: 10px 0px 10px 20px;
+    border-radius: 15px;
+}
+
+.half-width a:hover {
+    background-color: skyblue;
+    transition: 0.3s ease 0s;
+}
+
+.sec2 {
+    text-align: center;
+    margin-top: 150px;
+    border-top: 2px solid rgb(215, 215, 221);
+    border-bottom: 2px solid rgb(215, 215, 221);
+}
+
+.sec2 img {
+    margin: 20px;
+}
+
+.sec3 {
+    font-family: 'Poppins', sans-serif;
+    color: #383a3b;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+
+
+/*----------------------------------------------
+                 product-sec 
+-------------------------------------------------*/
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+    width: 330px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.prod-img {
+    padding: 14px;
+
+}
+
+.prod-h1 {
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+
+}
+
+.prod-price {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+
+
+}
+
+.prod-dis {
+    padding: 14px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: orange;
+}
+
+.prod-rate {
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #5E6366;
+
+}
+
+.prod-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
+
+}
+
+/* -----------------------------------------
+                 last-sec
+-------------------------------------------- */
+
+.see-button a {
+    text-decoration: none;
+    color: rgb(33, 132, 245);
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    display: block;
+    margin-top: 40px;
+}
+
+.see-button a:hover {
+    color: skyblue;
+}
+
+.sec4 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.gear-img {
+    width: 100%;
+}
+
+.gear-info {
+    width: 100%;
+
+
+}
+
+.gear-info h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #383a3b;
+    font-size: 30px;
+}
+
+.gear-disc {
+    font-family: 'Poppins', sans-serif;
+    color: #7c7e80;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sec4 a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 132, 245);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.sec4 a:hover {
+    background-color: skyblue;
+    transition: 0.3s ease 0s;
+}
+
+/* -----------------------------------------
+               footer
+------------------------------------------ */
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(10, 10, 39);
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 10px;
+
+}
+
+footer a {
+    color: white;
+    margin-left: 20px;
+}
+
+/* ----------------------------------
+        Media Query
+---------------------------------- */
+@media only screen and (max-width: 688px) {
+    main {
+        margin: 0;
+    }
+
+    .sec1 {
+        flex-direction: column-reverse;
+    }
+
+    .half-width {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .half-widths {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sec1 img {
+        width: 200px;
+    }
+
+    .sec1 h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .sec1 p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .sec4 {
+        flex-direction: column-reverse;
+        margin: 50px 1.8rem 0 1.8rem;
+    }
+
+    .gear-img {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gear-img img {
+        width: 300px;
+    }
+
+    .gear-info {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .gear-info h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .gear-info p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
